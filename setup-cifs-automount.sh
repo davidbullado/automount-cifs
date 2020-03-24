@@ -10,7 +10,7 @@ Wants=network-online.target
 What=//192.168.1.254/disk/Téléchargements
 Where=/mnt/downloads
 Type=cifs
-Options=username=freebox,password=mypassword,iocharset=utf8,file_mode=0777,dir_mode=0777,vers=1.0
+Options=username=freebox,password=mypassword,uid=1000,gid=997,iocharset=utf8,file_mode=0777,dir_mode=0777,vers=1.0
 
 [Install]
 WantedBy=multi-user.target
